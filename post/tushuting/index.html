@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>图书亭 | 施天扬的blog</title>
-<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587014208113">
+<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587018501436">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://jonathanqwq.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="图书亭 | 施天扬的blog - Atom Feed" href="https://jonathanqwq.github.io/atom.xml">
@@ -24,7 +24,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://jonathanqwq.github.io">
-  <img class="avatar" src="https://jonathanqwq.github.io/images/avatar.png?v=1587014208113" alt="">
+  <img class="avatar" src="https://jonathanqwq.github.io/images/avatar.png?v=1587018501436" alt="">
   </a>
   <h1 class="site-title">
     施天扬的blog
@@ -93,6 +93,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '1ff740305e143dc06d63',
+    clientSecret: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
+    repo: 'jonathanqwq.github.io',
+    owner: 'jonathanqwq',
+    admin: ['jonathanqwq'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
