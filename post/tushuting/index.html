@@ -1,52 +1,105 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>图书亭 | 施天扬的blog</title>
-<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587018501436">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="注意：留言请先登录！
+&lt;a href=&#34;http://dv21622620-2.icoc.vc/&#34; target=&#34;_blank&#34;&gt;图书亭（施天扬）&lt;/a&gt;版权所有">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587019011770">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://jonathanqwq.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="图书亭 | 施天扬的blog - Atom Feed" href="https://jonathanqwq.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="这里是线上写书平台——图书亭的官网传送门，点击这里前往图书亭官网
-电脑评论请去这里
-手机评论请去这里
-..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://jonathanqwq.github.io">
-  <img class="avatar" src="https://jonathanqwq.github.io/images/avatar.png?v=1587018501436" alt="">
-  </a>
-  <h1 class="site-title">
-    施天扬的blog
-  </h1>
-  <p class="site-description">
-    施天扬
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://jonathanqwq.github.io/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="https://dv21622620-2.icoc.vc" class="menu">
-          图书亭官网
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://jonathanqwq.github.io">
+        <img class="avatar" src="https://jonathanqwq.github.io/images/avatar.png?v=1587019011770" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://jonathanqwq.github.io">
+        <h1 class="site-title">施天扬的blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://jonathanqwq.github.io/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://dv21622620-2.icoc.vc" class="menu purple-link">
+            图书亭官网
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">图书亭</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-16</span>
+            
+          </div>
+          <div class="post-content">
+            <p>这里是线上写书平台——图书亭的官网传送门，点击<a href="http://dv21622620-2.icoc.vc" target="_blank">这里</a>前往图书亭官网</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">注意：留言请先登录！
+<a href="http://dv21622620-2.icoc.vc/" target="_blank">图书亭（施天扬）</a>版权所有</div>
   <div class="social-container">
     
       
@@ -60,120 +113,51 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> 
+施天扬的blog<a href="index.html" download="代码.txt">点击下载代码源文件</a>
+ | <a class="rss" href="https://jonathanqwq.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              图书亭
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-04-16
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>这里是线上写书平台——图书亭的官网传送门，点击<a href="http://dv21622620-2.icoc.vc" target="_blank">这里</a>前往图书亭官网</p>
-<p>电脑评论请去<a href="http://dv21622620-2.icoc.vc/msgBoard.jsp" target="_blank">这里</a><br>
-手机评论请去<a href="http://dv21622620-2.m.icoc.vc/mb.jsp" target="_blank">这里</a></p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
-        </div>
+    </div>
+    <script type="application/javascript">
 
-        
+hljs.initHighlightingOnLoad()
 
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '1ff740305e143dc06d63',
-    clientSecret: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
-    repo: 'jonathanqwq.github.io',
-    owner: 'jonathanqwq',
-    admin: ['jonathanqwq'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
-          
 
-          
-        
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> 
-电脑评论请去<a href="http://dv21622620-2.icoc.vc/msgBoard.jsp" target="_blank">这里</a>
-手机评论请去<a href="http://dv21622620-2.m.icoc.vc/mb.jsp" target="_blank">这里</a>
-施天扬的blog<a href="index.html" download="代码.txt">点击下载源文件</a>
-<a href="http://dv21622620-2.icoc.vc/" target="_blank">图书亭</a>版权所有
-  <a class="rss" href="https://jonathanqwq.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
-    </div>
-
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '1ff740305e143dc06d63',
+        clientSecret: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
+        repo: 'jonathanqwq.github.io',
+        owner: 'jonathanqwq',
+        admin: ['jonathanqwq'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

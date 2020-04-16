@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io</id>
     <title>施天扬的blog</title>
-    <updated>2020-04-16T06:30:50.552Z</updated>
+    <updated>2020-04-16T06:37:16.194Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io"/>
     <link rel="self" href="https://jonathanqwq.github.io/atom.xml"/>
-    <subtitle>施天扬</subtitle>
+    <subtitle>注意：留言请先登录！
+&lt;a href=&quot;http://dv21622620-2.icoc.vc/&quot; target=&quot;_blank&quot;&gt;图书亭（施天扬）&lt;/a&gt;版权所有</subtitle>
     <logo>https://jonathanqwq.github.io/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 施天扬的blog</rights>
     <entry>
-        <title type="html"><![CDATA[欢迎来到施天扬的BLOG，更多内容请往下划！]]></title>
+        <title type="html"><![CDATA[欢迎来到施天扬的BLOG，更多内容请往下看！]]></title>
         <id>https://jonathanqwq.github.io/post/welcome/</id>
         <link href="https://jonathanqwq.github.io/post/welcome/">
         </link>
@@ -26,8 +27,6 @@
         </link>
         <updated>2020-04-16T01:13:53.000Z</updated>
         <content type="html"><![CDATA[<p>这里是线上写书平台——图书亭的官网传送门，点击<a href="http://dv21622620-2.icoc.vc" target="_blank">这里</a>前往图书亭官网</p>
-<p>电脑评论请去<a href="http://dv21622620-2.icoc.vc/msgBoard.jsp" target="_blank">这里</a><br>
-手机评论请去<a href="http://dv21622620-2.m.icoc.vc/mb.jsp" target="_blank">这里</a></p>
 ]]></content>
     </entry>
 </feed>
