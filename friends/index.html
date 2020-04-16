@@ -264,90 +264,110 @@
             alert("博主暂未设置QQ联系方式");
     }
 </script></div>
-                <div id="main" class="col-xs-12 col-sm-7">
-                    <body">
-    <div class="archives-content">
+                <div id="main" class="col-xs-12 col-sm-7" style="z-index: 999;">
+                    <body>
+    <div id="friendscontainermobile">
         
         
-        <div class="archives-year">2020</div>
-        <ul>
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://jonathanqwq.github.io/post/welcome/" class="post">
-                    <div class="archives-title">欢迎来到施天扬的BLOG！</div>
-                    <div class="archives-time">2020-04-16</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-04-16 -->
-            </li>
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://jonathanqwq.github.io/post/tushuting/" class="post">
-                    <div class="archives-title">图书亭</div>
-                    <div class="archives-time">2020-04-16</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-04-16 -->
-            </li>
-            
-            
-        </ul>
         
     </div>
-</body">
-                    <div style="background:white">
-                        <div class="pagi">
-    <ul>
-        
-        <li><a style="width:100px">&nbsp;</a></li>
-        
-                <li><a id="page1">1</a></li>
-                <li><a id="page2" class="active">2</a></li>
-                <li><a id="page3">3</a></li>
-                
-        <li><a style="width:100px">&nbsp;</a></li>
-        
-            </ul>
-</div>
 
-<div id="pagination-prev" style="display:none"> 
-</div>
-<div id="pagination-next" style="display:none"> </div>
+    <div id="friendscontainer">
+        
+        
+        
+    </div>
+</body>
+                    <div name="comment" style="background: white">
+                        <div class="commentcontainer">
+                            
+                            <head>
+    <script src='https://jonathanqwq.github.io/media/js/valine.min.js'></script>
+    <script src="https://jonathanqwq.github.io/media/js/jquery.min.js"></script>
+</head>
+<style>
+    @media screen and (min-width: 1300px) {
+    .v .vbtn.vsubmit {
+        border-radius: 0;
+        padding: 0;
+        color: #fff;
+        line-height: 44px;
+        width: 100%;
+        border: none;
+        background: #1abc9c;
+    }
 
+    .v .vwrap .vedit .vctrl span.vpreview-btn,
+    .v .vwrap .vcontrol .col.col-20,
+    .v .vlist .vcard .vhead .vsys {
+        display: none;
+    }
 
-<script>
-    var prevstr = document.getElementById("pagination-prev").innerHTML;
-    var nextstr = document.getElementById("pagination-next").innerHTML;
-    var page1 = document.getElementById("page1");
-    var page2 = document.getElementById("page2");
-    var page3 = document.getElementById("page3");
-    page1.innerHTML = '-';
-    page2.innerHTML = '1';
-    page3.innerHTML = '-';
-    if (prevstr.length > 5) {
-        if (prevstr.indexOf("page/") != -1) {
-            var prevnum = parseInt(prevstr.split("page/")[1]);
-            page1.innerHTML = prevnum;
-            page2.innerHTML = prevnum + 1;
-        } else {
-            page1.innerHTML = 1;
-            page2.innerHTML = 2;
+    .v .vwrap .vmark .valert {
+        padding-top: 0px;
+    }
+
+    .vtext{
+        padding: 0;
+    }
+}
+
+    @media screen and (max-width: 1300px) {
+        .v .vwrap .vmark .valert{
+            margin-top:60%;
         }
+        .vwrap{
+            margin: 15px;
+            width: 90%;
+        }
+        .v .vwrap .vheader .vinput {
+            padding: 10px 5px;
+        }
+        .v .vwrap{
+            overflow: auto;
+        }
+        .v .veditor {
+            min-height: 30rem;
+            resize: none;
+        }
+
+        .v .vinput {
+            padding: 10px 15px;
+            font-size: 20px;
+        }
+
+        .v .vwrap .vedit .vctrl {
+            right: 0;
+        }
+
+        .v .vempty {
+            padding: 1.25em;
+            text-align: center;
+            color: #999;
+            font-size: 25px;
+        }
+
     }
-    if (nextstr.indexOf("page/") != -1) {
-        var nextnum = parseInt(nextstr.split("page/")[1]);
-        page3.innerHTML = nextnum;
-        page2.innerHTML = nextnum - 1;
-    }
-</script>
-                        <div style="padding-bottom:10%"></div>
+</style>
+
+<body>
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '1ff740305e143dc06d63',
+            appKey: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
+            notify: true,
+            verify: false,
+            avatar: 'retro',
+            pageSize: 30,
+            placeholder: '既然来了，何不畅所欲言呢？',
+        })
+    </script>
+</body>
+                            <div class="clear"></div>
+                            
+                        </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-2"></div>
@@ -417,48 +437,166 @@
   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
         <div style="margin-top:60px"></div>
-        <body">
-    <div class="archives-content">
+        <body>
+    <div id="friendscontainermobile">
         
         
-        <div class="archives-year">2020</div>
-        <ul>
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://jonathanqwq.github.io/post/welcome/" class="post">
-                    <div class="archives-title">欢迎来到施天扬的BLOG！</div>
-                    <div class="archives-time">2020-04-16</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-04-16 -->
-            </li>
-            
-            
-            
-            <li><span></span>
-                <div>
-                  <a href="https://jonathanqwq.github.io/post/tushuting/" class="post">
-                    <div class="archives-title">图书亭</div>
-                    <div class="archives-time">2020-04-16</div>
-                </a>
-                    
-                </div>
-                <!-- 2020-04-16 -->
-            </li>
-            
-            
-        </ul>
         
     </div>
-</body">
-        <div class="pagination-container">
-            
-            
-        </div>
+
+    <div id="friendscontainer">
+        
+        
+        
+    </div>
+</body>
         <div style="margin-bottom:60px">&nbsp;</div>
+        <div name="comment" style="background: white">
+            <div class="commentcontainer">
+                
+                <head>
+        <script src='https://jonathanqwq.github.io/media/js/valine.min.js'></script>
+        <script src="https://jonathanqwq.github.io/media/js/jquery.min.js"></script>
+    </head>
+    <style>
+        @media screen and (min-width: 1300px) {
+            .v {
+                margin-top: 10%;
+            }
+    
+            .v .vwrap {
+                overflow: hidden;
+            }
+    
+            .v .vwrap {
+                padding: 0 0 44px;
+            }
+    
+            .v .veditor {
+                min-height: 7rem;
+                resize: none;
+            }
+    
+            .v .vwrap .vedit {
+                padding-top: 0
+            }
+    
+            .v .vwrap .vheader {
+                width: 80%;
+                bottom: 0;
+                position: absolute;
+                background: #f7f7f7;
+            }
+    
+            .v .vinput {
+                padding: 10px 15px;
+            }
+    
+            .v .vwrap .vheader .vinput {
+                border-bottom: 0px
+            }
+    
+            .v .vwrap .vedit .vctrl {
+                margin-top: -44px;
+                right: 0;
+                position: absolute;
+                margin-right: -3px;
+            }
+    
+            .v .vwrap .vcontrol {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 20%;
+                padding-top: 0px;
+            }
+        }
+    
+        .v .vwrap .vcontrol .col.col-80 {
+            width: 100%;
+        }
+    
+        .v .vbtn.vsubmit {
+            border-radius: 0;
+            padding: 0;
+            color: #fff;
+            line-height: 44px;
+            width: 100%;
+            border: none;
+            background: #1abc9c;
+        }
+    
+        .v .vwrap .vedit .vctrl span.vpreview-btn,
+        .v .vwrap .vcontrol .col.col-20,
+        .v .vlist .vcard .vhead .vsys {
+            display: none;
+        }
+    
+        .v .vwrap .vmark .valert {
+            padding-top: 0px;
+        }
+    
+        .vtext{
+            padding: 0;
+        }
+    
+        @media screen and (max-width: 1300px) {
+            .v .vwrap .vmark .valert{
+                margin-top:60%;
+            }
+            .vwrap{
+                margin: 15px;
+                width: 100%;
+            }
+            .v .vwrap .vheader .vinput {
+                padding: 10px 5px;
+            }
+            .v .vwrap{
+                overflow: auto;
+            }
+            .v .veditor {
+                min-height: 30rem;
+                resize: none;
+            }
+    
+            .v .vinput {
+                padding: 10px 15px;
+                font-size: 20px;
+            }
+    
+            .v .vwrap .vedit .vctrl {
+                right: 0;
+            }
+    
+            .v .vempty {
+                padding: 1.25em;
+                text-align: center;
+                color: #999;
+                font-size: 25px;
+            }
+    
+        }
+    </style>
+    
+    <body>
+        <div id="vcomments1"></div>
+        <script>
+            new Valine({
+                el: '#vcomments1',
+                appId: '1ff740305e143dc06d63',
+                appKey: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
+                notify: true,
+                verify: false,
+                avatar: 'retro',
+                pageSize: 30,
+                placeholder: '既然来了，那就留个痕迹吧~',
+            })
+        </script>
+    </body>
+                <div class="clear"></div>
+                
+            </div>
+        </div>
     </div>
     <div id="landlord">
         <div class="message" style="opacity:0"></div>
