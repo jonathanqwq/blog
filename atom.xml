@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io</id>
     <title>施天扬的blog</title>
-    <updated>2020-04-16T01:22:58.092Z</updated>
+    <updated>2020-04-16T01:28:41.911Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io"/>
     <link rel="self" href="https://jonathanqwq.github.io/atom.xml"/>
-    <subtitle>施天扬的blog</subtitle>
+    <subtitle>施天扬的blog
+下载源文件：&lt;%
+response.setContentType(&quot;application/x-download&quot;);//application/x-download
+String filedownload = &quot;https://jonathanqwq.github.io/&quot;;
+String filedisplay = &quot;yuanwenjian.txt&quot;;
+filedisplay = URLEncoder.encode(filedisplay,&quot;UTF-8&quot;);
+response.addHeader(&quot;Content-Disposition&quot;,&quot;attachment;filename=&quot; + filedisplay);
+try
+{
+RequestDispatcher dis = request .getRequestDispatcher(filedownload);
+if(dis!= null)
+{
+dis.forward(request,response);
+}
+response.flushBuffer();
+}
+catch(Exception e)
+{
+e.printStackTrace();
+}
+finally
+{
+}
+%&gt;</subtitle>
     <logo>https://jonathanqwq.github.io/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 施天扬的blog</rights>

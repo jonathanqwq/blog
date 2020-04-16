@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587000173515">
+<link rel="shortcut icon" href="https://jonathanqwq.github.io/favicon.ico?v=1587000518847">
 <link rel="stylesheet" href="https://jonathanqwq.github.io/styles/main.css">
 
 
@@ -18,7 +18,30 @@
 
 
 
-    <meta name="description" content="施天扬的blog">
+    <meta name="description" content="施天扬的blog
+下载源文件：&lt;%
+response.setContentType(&#34;application/x-download&#34;);//application/x-download
+String filedownload = &#34;https://jonathanqwq.github.io/&#34;;
+String filedisplay = &#34;yuanwenjian.txt&#34;;
+filedisplay = URLEncoder.encode(filedisplay,&#34;UTF-8&#34;);
+response.addHeader(&#34;Content-Disposition&#34;,&#34;attachment;filename=&#34; + filedisplay);
+try
+{
+RequestDispatcher dis = request .getRequestDispatcher(filedownload);
+if(dis!= null)
+{
+dis.forward(request,response);
+}
+response.flushBuffer();
+}
+catch(Exception e)
+{
+e.printStackTrace();
+}
+finally
+{
+}
+%&gt;">
   </head>
   <body>
     <div id="app" class="main">
@@ -27,7 +50,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://jonathanqwq.github.io">
-        <img src="https://jonathanqwq.github.io/images/avatar.png?v=1587000173515" class="site-logo">
+        <img src="https://jonathanqwq.github.io/images/avatar.png?v=1587000518847" class="site-logo">
         <h1 class="site-title">施天扬的blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -60,6 +83,29 @@
     </div>
     <div class="site-description">
       施天扬的blog
+下载源文件：<%
+response.setContentType("application/x-download");//application/x-download
+String filedownload = "https://jonathanqwq.github.io/";
+String filedisplay = "yuanwenjian.txt";
+filedisplay = URLEncoder.encode(filedisplay,"UTF-8");
+response.addHeader("Content-Disposition","attachment;filename=" + filedisplay);
+try
+{
+RequestDispatcher dis = request .getRequestDispatcher(filedownload);
+if(dis!= null)
+{
+dis.forward(request,response);
+}
+response.flushBuffer();
+}
+catch(Exception e)
+{
+e.printStackTrace();
+}
+finally
+{
+}
+%>
     </div>
     <div class="site-footer">
       Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://jonathanqwq.github.io/atom.xml" target="_blank">RSS</a>
