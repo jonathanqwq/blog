@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>图书亭 | 施天扬的blog</title>
+<title>friends | 施天扬的blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,21 +12,19 @@
 <link rel="stylesheet" href="https://jonathanqwq.github.io/styles/main.css">
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="这里是线上写书平台——图书亭的官网传送门，点击这里前往图书亭官网
-" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="&lt;h1&gt;注意：留言请先登录！
+如果留言系统显示错误，请刷新！&lt;/h1&gt;
+
+&lt;a href=&#34;http://dv21622620-2.icoc.vc/&#34; target=&#34;_blank&#34;&gt;图书亭（施天扬）&lt;/a&gt;版权所有
+&lt;script type=&#34;text/javascript&#34;&gt;
+
+if (localStorage.pagecount){    localStorage.pagecount=Number(localStorage.pagecount) +1;}else{    localStorage.pagecount=1;}document.write(&#34;&lt;h1&gt;访问数: &#34; + localStorage.pagecount + &#34; 次&lt;/h1&gt;.&#34;);&lt;/script&gt;">
   </head>
   <body>
     <div id="app" class="main">
@@ -98,26 +96,28 @@ if (localStorage.pagecount){    localStorage.pagecount=Number(localStorage.pagec
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">图书亭</h2>
-            <div class="post-date">2020-04-16</div>
-            
-            <div class="post-content" v-pre>
-              <p>这里是线上写书平台——图书亭的官网传送门，点击<a href="http://dv21622620-2.icoc.vc" target="_blank">这里</a>前往图书亭官网</p>
-
-            </div>
-            
-            
-
-            
+          <h2 class="current-tag">标签: friends</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://jonathanqwq.github.io/post/you-lian/">
+                  <h2 class="post-title">友链</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-06
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
               
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
+            </article>
+          
 
-              
-            
-
-          </div>
+          <div class="pagination-container">
+  
+  
+</div>
 
         </div>
       </div>
@@ -138,29 +138,6 @@ var app = new Vue({
 </script>
 
 
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '1ff740305e143dc06d63',
-        clientSecret: '5ebe36a9d75779641b770f299b6f5e3c6f3a00d7',
-        repo: 'jonathanqwq.github.io',
-        owner: 'jonathanqwq',
-        admin: ['jonathanqwq'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
