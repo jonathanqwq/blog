@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io</id>
     <title>施天扬的blog</title>
-    <updated>2020-05-06T04:41:10.251Z</updated>
+    <updated>2020-05-08T02:09:28.840Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io"/>
     <link rel="self" href="https://jonathanqwq.github.io/atom.xml"/>
@@ -23,33 +23,6 @@ if (localStorage.pagecount){    localStorage.pagecount=Number(localStorage.pagec
         </link>
         <updated>2020-04-29T03:38:00.000Z</updated>
         <content type="html"><![CDATA[<p>欢迎</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[openBVE、hmmsim专页]]></title>
-        <id>https://jonathanqwq.github.io/post/openbve/</id>
-        <link href="https://jonathanqwq.github.io/post/openbve/">
-        </link>
-        <updated>2020-04-22T08:51:25.000Z</updated>
-        <content type="html"><![CDATA[<p>openBVE及转换器：<a href="https://api.zbx1425.tk:8953 " target="_blank">点击下载</a>（来自Nemo Zhang (zbx1425)）</p>
-<p>常见问题：<a href="https://www.zbx1425.tk/bve/zbxfaq.html" target="_blank">点击这里</a>（来自Nemo Zhang (zbx1425)）</p>
-<p>在网上找不到线路吗？<a href="https://bvecontentservice.gitee.io/zh/" target="_blank">点击进入BVE内容服务系统下载区</a>（此内容能让您更简单的安装线路）（来自Nemo Zhang (zbx1425)）</p>
-<p>线路开发者？： <a href="https://zbx1425.tk/bve/develop.html" target="_blank">前往这里</a>（来自Nemo Zhang (zbx1425)）</p>
-<p>hmmsim中列车更换方法v1.0.0：<a href="https://jonathanqwq.github.io/download/hmmsim中列车更换方法.ppt" download="hmmsim中列车更换方法.ppt">点击下载</a></p>
-<p>hmmsim ios线路安装方法v1.0.0：<a href="https://jonathanqwq.github.io/download/hmmsim ios线路安装方法.ppt" download="hmmsim ios线路安装方法.ppt">点击下载</a></p>
-<p>hmmsim 安卓线路安装方法v1.0.0：<a href="https://jonathanqwq.github.io/download/hmmsim安卓线路添加方法.ppt" download="hmmsim安卓线路添加方法.ppt">点击下载</a></p>
-<p>openBVE新手入门+温馨提示的ppt v1.0.0：<a href="https://jonathanqwq.github.io/download/openBVE新手入门.ppt" download="openBVE新手入门+温馨提示的ppt v1.0.0">点击下载</a></p>
-<p>openbve线路添加方法v1.0.0：<a href="https://jonathanqwq.github.io/download/openbve线路添加方法.ppt" download="openbve线路添加方法.ppt">点击下载</a></p>
-<p>如需转载，请联系2841306779@qq.com！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[图书亭]]></title>
-        <id>https://jonathanqwq.github.io/post/tushuting/</id>
-        <link href="https://jonathanqwq.github.io/post/tushuting/">
-        </link>
-        <updated>2020-04-16T01:13:53.000Z</updated>
-        <content type="html"><![CDATA[<p>这里是线上写书平台——图书亭的官网传送门，点击<a href="http://dv21622620-2.icoc.vc" target="_blank">这里</a>前往图书亭官网</p>
 ]]></content>
     </entry>
 </feed>
