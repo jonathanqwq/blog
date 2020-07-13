@@ -2,14 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io</id>
     <title>Jonathan的blog</title>
-    <updated>2020-07-11T07:54:26.086Z</updated>
+    <updated>2020-07-13T12:24:43.833Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io"/>
     <link rel="self" href="https://jonathanqwq.github.io/atom.xml"/>
-    <subtitle>想要第一时间收到更新提醒吗？快来使用&lt;a href=&quot;https://jonathanqwq.github.io/atom.xml&quot; target=&quot;_blank&quot;&gt;rss订阅吧！&lt;/a&gt;&lt;br&gt; 点击↓播放音乐&lt;br&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1460158972&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</subtitle>
+    <subtitle>想要第一时间收到更新提醒吗？快来使用&lt;a href=&quot;https://jonathanqwq.github.io/atom.xml&quot; target=&quot;_blank&quot;&gt;rss订阅吧！&lt;/a&gt;&lt;br&gt; 点击↓播放音乐（部分浏览器无法播放）&lt;br&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=1460158972&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</subtitle>
     <logo>https://jonathanqwq.github.io/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Jonathan的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[沉思，我的最爱 ——施天扬]]></title>
+        <id>https://jonathanqwq.github.io/post/tushutingpost-chensi-wodezuiai/</id>
+        <link href="https://jonathanqwq.github.io/post/tushutingpost-chensi-wodezuiai/">
+        </link>
+        <updated>2020-07-13T11:38:37.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://jonathanqwq.github.io/post-images/1594643037160.png" alt="" loading="lazy"></figure>
+<p>注：此文同时为图书亭文章。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[欢迎来到施天扬的BLOG，更多内容请往下划！]]></title>
         <id>https://jonathanqwq.github.io/post/welcome/</id>
