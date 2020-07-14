@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io</id>
     <title>Jonathan的blog</title>
-    <updated>2020-07-14T09:03:17.636Z</updated>
+    <updated>2020-07-14T09:23:00.106Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io"/>
     <link rel="self" href="https://jonathanqwq.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://jonathanqwq.github.io/post/ru-he-gou-jian-zi-ji-de-wang-zhan/">
         </link>
         <updated>2020-07-14T08:16:51.000Z</updated>
-        <content type="html"><![CDATA[<p>准备开始了吗？从头开始构建自己的网站，或为您的项目生成一个。<br>
+        <content type="html"><![CDATA[<p>此文章有较多的图片，请您先休息个1-2分钟后再观看此文。</p>
+<p>准备开始了吗？从头开始构建自己的网站，或为您的项目生成一个。<br>
 每个GitHub帐户和组织都有一个站点，<br>
 并且有无限的项目站点。让我们开始吧。<br>
 GitHub pages使用github.io域，HTTPS网络协议。<br>
