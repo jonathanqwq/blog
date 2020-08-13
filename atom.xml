@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2020-08-12T08:33:01.478Z</updated>
+    <updated>2020-08-13T04:52:32.974Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://jonathanqwq.github.io/blog/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, Jonathan的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Python3的介绍＋入门（1）]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/python3-de-jie-shao-ru-men-1/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/python3-de-jie-shao-ru-men-1/">
+        </link>
+        <updated>2020-08-13T04:16:23.000Z</updated>
+        <content type="html"><![CDATA[<p>1、安装<br>
+①在您开始之前，你的计算机需要Python，您可以去 https://python.org 下载安装。<br>
+②您可以选用notepad++作为文字编辑器。您可以去 https://notepad-plus-plus.org/download 下载安装。</p>
+<p>2、了解<br>
+Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。<br>
+Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。<br>
+像 Perl 语言一样, Python 源代码同样遵循 GPL(GNU General Public License) 协议。</p>
+<p>3、开始<br>
+我们先在桌面上新建文本文档，将文件的后缀改为 .py，然后用notepad++打开。<br>
+请正确地选择字符编码。错误的设置可能导致实际使用时乱码。检查右下角的编码显示和“编码”菜单中的指示，如果没有显示“UTF-8”(例如显示GB2312等其它字符编码)，则点击“编码”-&gt;“转为 UTF-8 编码”来将文件的字符编码转换为“UTF-8”，然后再保存。这是一个国际通用的编码标准，可以避免不同语言系统环境下字体乱码的问题。<br>
+对于大多数程序语言，第一个入门编程代码便是&quot;Hello World！&quot;，以下代码为使用Python输出Hello World！<br>
+<code>print(&quot;Hello, World!&quot;)</code></p>
+<p>由此可见，想让计算机输出字符，在python中的格式是这样的<code>print(&quot;这里加内容&quot;)</code><br>
+是不是很简单呢？</p>
+<p>将上方代码放入.py文件，保存后双击即可。有没有发现窗口闪了一下就没了，根本看不到内容？只需要添加两行代码。</p>
+<p>这行代码放在print那行代码上一行<br>
+<code>import os</code></p>
+<p>这行代码放在print那行代码下一行<br>
+<code>os.system(&quot;pause&quot;)</code></p>
+<p>保存后再次运行，是不是不会一闪而过了？</p>
+<p>今天的小课堂就到这里，我们下周再见！😘</p>
+<p>注：python所有符号都必须用英文符号哦</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何构建自己的网站]]></title>
         <id>https://jonathanqwq.github.io/blog/post/ru-he-gou-jian-zi-ji-de-wang-zhan/</id>
