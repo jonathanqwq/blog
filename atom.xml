@@ -2,14 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2020-12-11T11:35:05.829Z</updated>
+    <updated>2021-03-12T07:38:48.999Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
     <subtitle>想要第一时间收到更新提醒吗？快来使用&lt;a href=&quot;https://jonathanqwq.github.io/blog/atom.xml&quot; target=&quot;_blank&quot;&gt;rss订阅吧！&lt;/a&gt;</subtitle>
     <logo>https://jonathanqwq.github.io/blog/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2020, Jonathan的blog</rights>
+    <rights>All rights reserved 2021, Jonathan的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[这世界上，永远不会有绝对的must和mustn't。]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/kaishi/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/kaishi/">
+        </link>
+        <updated>2021-03-12T07:36:09.000Z</updated>
+        <content type="html"><![CDATA[<p>网站的开始。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python3的介绍＋入门（1）]]></title>
         <id>https://jonathanqwq.github.io/blog/post/python3-de-jie-shao-ru-men-1/</id>
