@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2021-03-28T02:31:36.127Z</updated>
+    <updated>2021-04-09T07:16:36.932Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
     <logo>https://jonathanqwq.github.io/blog/images/avatar.png</logo>
     <icon>https://jonathanqwq.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, Jonathan的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[“优秀”老师排行榜]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/you-xiu-lao-shi-pai-xing-bang/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/you-xiu-lao-shi-pai-xing-bang/">
+        </link>
+        <updated>2021-04-09T07:14:18.000Z</updated>
+        <content type="html"><![CDATA[<p>top 1：王萍<br>
+top 2：刘老师（就教我们体锻的那个人）<br>
+top 3：冯倩</p>
+<p>注：为什么现代教育不让教师体罚？因为不让他们把权力看得太重！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一百零八条好汉，一百零八个人生]]></title>
         <id>https://jonathanqwq.github.io/blog/post/yi-bai-ling-ba-tiao-hao-han-yi-bai-ling-ba-ge-ren-sheng/</id>
