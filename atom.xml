@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2021-04-28T09:54:47.843Z</updated>
+    <updated>2021-04-28T09:55:52.180Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
@@ -31,7 +31,7 @@
 <p><strong>第四步</strong>：打开客户端HMCL.exe，选择外置登录，认证服务器选择“tms服务器”，用刚才注册的邮箱和密码登录.</p>
 <hr>
 <p><strong>第五步</strong>：进入多人游戏，你会看到tms服务器正等着你。<br>
-如果一直出现&quot;无法连接验证服务器&quot;之类的 提示，请更新最新的Java以保证支持SSL证书，详见群文件。</p>
+如果一直出现&quot;无法连接验证服务器&quot;之类的 提示，请更新最新的Java以保证支持SSL证书。</p>
 ]]></content>
     </entry>
     <entry>
