@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2021-04-09T07:17:22.447Z</updated>
+    <updated>2021-04-28T09:54:47.843Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
@@ -10,15 +10,28 @@
     <icon>https://jonathanqwq.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2021, Jonathan的blog</rights>
     <entry>
-        <title type="html"><![CDATA[“优秀”老师排行榜]]></title>
-        <id>https://jonathanqwq.github.io/blog/post/you-xiu-lao-shi-pai-xing-bang/</id>
-        <link href="https://jonathanqwq.github.io/blog/post/you-xiu-lao-shi-pai-xing-bang/">
+        <title type="html"><![CDATA[如何加入tms服务器？]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/ru-he-jia-ru-tms-fu-wu-qi/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/ru-he-jia-ru-tms-fu-wu-qi/">
         </link>
-        <updated>2021-04-09T07:14:18.000Z</updated>
-        <content type="html"><![CDATA[<p>top 1：王萍<br>
-top 2：刘老师（就教我们体锻的那个人）<br>
-top 3：冯倩</p>
-<p>注：为什么现代教育不让教师体罚？因为不让他们把权力看得太重！</p>
+        <updated>2021-04-28T08:59:35.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="welcome-to-tms">WELCOME TO TMS</h1>
+<h1 id="欢迎来到tms-the-minecraft-server">欢迎来到TMS (The Minecraft Server)</h1>
+<h2 id="现使用java版1165">现使用Java版1.16.5</h2>
+<h2 id="加入流程">加入流程</h2>
+<p><strong>第一步</strong>：我们并不使用正版账号登录，所以你需要在tms皮肤站额外注册一个账号。前往 <a href="https://bskin.zbx1425.cn/">tms皮肤站</a> 注册账号，创立角色，选择或上传自己喜欢的皮肤和披风。</p>
+<hr>
+<p><strong>第二步</strong>：完成<a href="https://wj.qq.com/s2/8246139/de24/">问卷</a></p>
+<hr>
+<p><strong>第三步</strong>：下载客户端。<br>
+直接在本页面下载：<br>
+<a href="https://hub.fastgit.org/jonathanqwq/tms/releases/download/v1.0/hmcl.zip">WINDOWS 客户端</a><br>
+<strong>如果你之前没有安装过Java，还需要根据系统类型将其下载（下载地址：<a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242060_3d5a2bb8f8d4428bbe94aed7ec7ae784">64位</a>丨<a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242058_3d5a2bb8f8d4428bbe94aed7ec7ae784">32位</a>） ，macOS用户需要安装<a href="https://support.apple.com/kb/DL1572?locale=zh_CN">Java 8</a>。</strong></p>
+<hr>
+<p><strong>第四步</strong>：打开客户端HMCL.exe，选择外置登录，认证服务器选择“tms服务器”，用刚才注册的邮箱和密码登录.</p>
+<hr>
+<p><strong>第五步</strong>：进入多人游戏，你会看到tms服务器正等着你。<br>
+如果一直出现&quot;无法连接验证服务器&quot;之类的 提示，请更新最新的Java以保证支持SSL证书，详见群文件。</p>
 ]]></content>
     </entry>
     <entry>
