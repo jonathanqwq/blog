@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jonathanqwq.github.io/blog</id>
     <title>Jonathan的blog</title>
-    <updated>2021-05-05T03:02:38.743Z</updated>
+    <updated>2021-05-05T04:26:54.623Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
     <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
@@ -170,6 +170,24 @@ Your site is ready to be published at https://username.github.io/.<br>
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openBVE、hmmsim专页]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/openbve/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/openbve/">
+        </link>
+        <updated>2020-04-22T08:51:25.000Z</updated>
+        <content type="html"><![CDATA[<p>openBVE及转换器：<a href="https://www.zbx1425.cn/bve/mirror.php " target="_blank">点击下载</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>openBVE新手入门：<a href="https://www.zbx1425.cn/bve/zbxfaq.html" target="_blank">点击这里</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>在网上找不到线路吗？<a href="https://bvecontentservice.gitee.io/zh/" target="_blank">点击进入BVE内容服务系统下载区</a>                         <a href="https://bvecontentservice.github.io/zh/" target="_blank">备用网站</a>（此内容能让您更简单的安装线路）（来自Nemo Zhang (zbx1425)）</p>
+<p>线路开发者？： <a href="https://www.zbx1425.cn/nautilus/index.html" target="_blank">前往这里</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>hmmsim中列车更换方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim中列车更换方法.ppt" download="hmmsim中列车更换方法.ppt">点击下载</a></p>
+<p>hmmsim ios线路安装方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim ios线路安装方法.ppt" download="hmmsim ios线路安装方法.ppt">点击下载</a></p>
+<p>hmmsim 安卓线路安装方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim安卓线路添加方法.ppt" download="hmmsim安卓线路添加方法.ppt">点击下载</a></p>
+<p>openBVE新手入门+温馨提示的ppt v1.1.0：<a href="https://jonathanqwq.github.io/download/openBVE新手入门.ppt" download="openBVE新手入门+温馨提示的ppt v1.0.0">点击下载（若出现问题，请点击“在新标签页打开”)</a></p>
+<p>openbve线路添加方法v1.1.0：<a href="https://jonathanqwq.github.io/download/openbve线路添加方法.ppt" download="openbve线路添加方法.ppt">点击下载</a></p>
+<p>如需转载，请查看<a href="https://jonathanqwq.github.io/license" target="_blank">转载协议</a></p>
 ]]></content>
     </entry>
 </feed>
