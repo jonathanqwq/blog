@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://jonathanqwq.github.io/blog</id>
+    <title>Jonathan的blog</title>
+    <updated>2022-08-10T03:15:02.557Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://jonathanqwq.github.io/blog"/>
+    <link rel="self" href="https://jonathanqwq.github.io/blog/atom.xml"/>
+    <logo>https://jonathanqwq.github.io/blog/images/avatar.png</logo>
+    <icon>https://jonathanqwq.github.io/blog/favicon.ico</icon>
+    <rights>All rights reserved 2022, Jonathan的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[如何使用资源包添加sounds文件？]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/ru-he-shi-yong-zi-yuan-bao-tian-jia-sounds-wen-jian/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/ru-he-shi-yong-zi-yuan-bao-tian-jia-sounds-wen-jian/">
+        </link>
+        <updated>2022-07-02T03:46:28.000Z</updated>
+        <content type="html"><![CDATA[<p>最近有有人在群里问 “有没有什么模组能播放mp3的呢” 当然 资源包就可以~</p>
+<p>本教程依赖于星海市的资源包创建器<br><br>
+当然，其他资源包也同理</p>
+<p>创建mtr模组的列车贴图，请见<a href="https://xinghaicity.ldiorstudio.cn/wiki/%E8%87%AA%E5%AE%9A%E5%88%97%E8%BD%A6%E6%B6%82%E8%A3%85%E5%8F%8A%E6%A0%87%E7%89%8C">星海市wiki</a></p>
+<p>1、登录，进入<a href="https://xinghaicity.ldiorstudio.cn/srpack">星海市专属资源包编辑网站</a><br>（如果您是自制资源包，可查看<a href="https://www.bilibili.com/read/cv16021904">本教程</a>第一章创建基础资源包格式）</p>
+<p>2、进入<code>assets/mtr</code>文件夹（或自己的命名空间中（注意！使用星海市资源包网站的同学，你们的命名空间就是mtr） <br>创建/打开一个名为<code>sounds</code>的文件夹，同时在<code>assets/mtr</code>目录下创建<code>sounds.json</code>文件<br><img src="https://jonathanqwq.github.io/blog/post-images/1656734401442.png" alt="" loading="lazy"><br>如上图所示</p>
+<p>3、打开sounds文件夹，将您的音频文件以<code>*.ogg</code>形式导入到其中<br>可自行百度<code>mp3/wav转ogg在线转换器</code></p>
+<p>4、回到<code>assets/mtr</code>目录，打开<code>sounds.json</code>文件并进入编辑模式<br>
+输入这么一段代码：</p>
+<pre><code>{
+&quot;游戏中显示的音频名称 如“qingke”，最好是英文&quot;: {
+    &quot;category&quot;: &quot;master&quot;,
+    &quot;sounds&quot;: [
+      {
+        &quot;name&quot;: &quot;命名空间:文件名去掉ogg&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<p>下方为示例：</p>
+<pre><code>{
+&quot;ttkuai&quot;: {
+    &quot;category&quot;: &quot;master&quot;,
+    &quot;sounds&quot;: [
+      {
+        &quot;name&quot;: &quot;mtr:kuai_tianhaidi&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<p>that's it</p>
+<p>如果想添加多个，您可以参考以下示范：</p>
+<pre><code>{
+&quot;ttkuai&quot;: {
+    &quot;category&quot;: &quot;master&quot;,
+    &quot;sounds&quot;: [
+      {
+        &quot;name&quot;: &quot;mtr:kuai_tianhaidi&quot;
+      }
+    ]
+  },
+&quot;qingke&quot;: {
+    &quot;category&quot;: &quot;master&quot;,
+    &quot;sounds&quot;: [
+      {
+        &quot;name&quot;: &quot;mtr:qingke&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<p>感谢您的阅读！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一百零八条好汉，一百零八个人生]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/yi-bai-ling-ba-tiao-hao-han-yi-bai-ling-ba-ge-ren-sheng/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/yi-bai-ling-ba-tiao-hao-han-yi-bai-ling-ba-ge-ren-sheng/">
+        </link>
+        <updated>2021-03-14T04:24:50.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://jonathanqwq.github.io/blog/post-images/1615695905700.png" alt="" loading="lazy"><br>
+注：本文同时为图书亭文章</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[这世界上，永远不会有绝对的must和mustn't。]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/kaishi/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/kaishi/">
+        </link>
+        <updated>2021-03-12T07:36:09.000Z</updated>
+        <content type="html"><![CDATA[<p>网站的开始。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python3的介绍＋入门（1）]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/python3-de-jie-shao-ru-men-1/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/python3-de-jie-shao-ru-men-1/">
+        </link>
+        <updated>2020-08-13T04:16:23.000Z</updated>
+        <content type="html"><![CDATA[<p>1、安装<br>
+①在您开始之前，你的计算机需要Python，您可以去 https://python.org 下载安装。<br>
+②您可以选用notepad++作为文字编辑器。您可以去 https://notepad-plus-plus.org/download 下载安装。</p>
+<p>2、了解<br>
+Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。<br>
+Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。<br>
+像 Perl 语言一样, Python 源代码同样遵循 GPL(GNU General Public License) 协议。</p>
+<p>3、开始<br>
+我们先在桌面上新建文本文档，将文件的后缀改为 .py，然后用notepad++打开。<br>
+请正确地选择字符编码。错误的设置可能导致实际使用时乱码。检查右下角的编码显示和“编码”菜单中的指示，如果没有显示“UTF-8”(例如显示GB2312等其它字符编码)，则点击“编码”-&gt;“转为 UTF-8 编码”来将文件的字符编码转换为“UTF-8”，然后再保存。这是一个国际通用的编码标准，可以避免不同语言系统环境下字体乱码的问题。<br>
+对于大多数程序语言，第一个入门编程代码便是&quot;Hello World！&quot;，以下代码为使用Python输出Hello World！<br>
+<code>print(&quot;Hello, World!&quot;)</code></p>
+<p>由此可见，想让计算机输出字符，在python中的格式是这样的<code>print(&quot;这里加内容&quot;)</code><br>
+是不是很简单呢？</p>
+<p>将上方代码放入.py文件，保存后双击即可。有没有发现窗口闪了一下就没了，根本看不到内容？只需要添加两行代码。</p>
+<p>这行代码放在print那行代码上一行<br>
+<code>import os</code></p>
+<p>这行代码放在print那行代码下一行<br>
+<code>os.system(&quot;pause&quot;)</code></p>
+<p>保存后再次运行，是不是不会一闪而过了？</p>
+<p>今天的小课堂就到这里，我们下周再见！😘</p>
+<p>注：python所有符号都必须用英文符号哦<br>
+今后所有的更新将会在 https://jonathanqwq.github.io/python-class</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何构建自己的网站]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/ru-he-gou-jian-zi-ji-de-wang-zhan/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/ru-he-gou-jian-zi-ji-de-wang-zhan/">
+        </link>
+        <updated>2020-07-14T08:16:51.000Z</updated>
+        <content type="html"><![CDATA[<p>从头开始构建自己的网站，或为您的项目生成一个。<br>
+每个GitHub帐户和组织都有一个站点，<br>
+并且有无限的项目站点。让我们开始吧。<br>
+GitHub pages使用github.io域，HTTPS网络协议。<br>
+GitHub pages是一个静态的网站托管服务。<br>
+GitHub页面的网站，即使云端仓库是私人的，仍旧可以在互联网上公开。<br>
+GitHub页面的网站有以下的使用限制：<br>
+GitHub网站发布页不能大于1 GB<br>
+当然，如果你不习惯英文的github，也可以选择国内的一些网站。</p>
+<p><a href="/" target="_blank" class="m">此文章有较多的图片，为了让您看到全部内容，请您先等待一会儿再观看此文。</a></p>
+<p>1、<a href="http://github.com/" target="_blank" class="m">注册</a>github账号。<img src="https://jonathanqwq.github.io/blog/post-images/1594715426711.png" alt="" loading="lazy"></p>
+<p>2、在GitHub上，创建一个新的库命名为username.github.io，其中用户名是您在GitHub上的用户名。username一定要和你的用户名匹配，否则不可用。（登陆账号后<a href="https://github.com/new" target="_blank" class="m">点这里</a>，在Repository name框里填写上username.github.io，然后点击最下方的create repository就可以了。）<br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594715510813.png" alt="" loading="lazy"><br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594715631143.png" alt="" loading="lazy"></p>
+<p>3、在你的储存库中点击creating a new file,在name your file中添入index.html，在edit your file 下方的文本框中填入</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta charset=utf-8&gt;
+&lt;title&gt;我的第一个网站(此部分可编辑)&lt;/title&gt;
+  &lt;/head&gt;
+&lt;body&gt;
+ &lt;p&gt;我的第一个网站(此部分可编辑)&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/p&gt;
+</code></pre>
+<p>点击commit new file即可。<br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594716171376.png" alt="" loading="lazy"><br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594716233185.png" alt="" loading="lazy"><br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594716269248.png" alt="" loading="lazy"></p>
+<p>4、点击&quot;settings&quot;, 进入仓库设置页面.<br>
+找到&quot;GitHub Pages&quot;这一处, Source选择master<br>
+选择之后, 你就会发现页面在进行刷新.<br>
+稍等片刻刷新完成. 再把页面滚动到此处, 你会看到一行提示, 类似于<br>
+Your site is ready to be published at https://username.github.io/.<br>
+其中的链接: https://username.github.io/ 就是你的网站地址.<br>
+点击此链接, 不出意外的话, 你的网站就呈现在你的眼前了.<br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594717289929.png" alt="" loading="lazy"><br>
+<img src="https://jonathanqwq.github.io/blog/post-images/1594717352591.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沉思，我的最爱 ——施天扬]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/tushutingpost-chensi-wodezuiai/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/tushutingpost-chensi-wodezuiai/">
+        </link>
+        <updated>2020-07-13T11:38:37.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://jonathanqwq.github.io/blog/post-images/1594643037160.png" alt="" loading="lazy"></figure>
+<p>注：此文同时为图书亭文章。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/hello-gridea/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/hello-gridea/">
+        </link>
+        <updated>2020-04-26T02:18:24.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://jonathanqwq.github.io/blog/post-images/1588904582342.png" alt="" loading="lazy"><br>
+👏 欢迎使用 Gridea ！<br>
+✍️ Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<p>特性👇<br>
+📝 你可以使用最酷的 Markdown 语法，进行快速创作</p>
+<p>🌉 你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️ 你可以对文章进行标签分组</p>
+<p>📋 你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻 你可以在 𝖶𝗂𝗇𝖽𝗈𝗐𝗌 或 𝖬𝖺𝖼𝖮𝖲 设备上使用此客户端</p>
+<p>🌎 你可以使用 𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌 或 Coding Pages 向世界展示，未来将支持更多平台</p>
+<p>💬 你可以进行简单的配置，接入 Gitalk 或 DisqusJS 评论系统</p>
+<p>🇬🇧 你可以使用中文简体或英语</p>
+<p>🌁 你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥 你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 Gridea 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openBVE、hmmsim专页]]></title>
+        <id>https://jonathanqwq.github.io/blog/post/openbve/</id>
+        <link href="https://jonathanqwq.github.io/blog/post/openbve/">
+        </link>
+        <updated>2020-04-22T08:51:25.000Z</updated>
+        <content type="html"><![CDATA[<p>openBVE及转换器：<a href="https://www.zbx1425.cn/bve/mirror.php " target="_blank">点击下载</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>openBVE新手入门：<a href="https://www.zbx1425.cn/bve/zbxfaq.html" target="_blank">点击这里</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>在网上找不到线路吗？<a href="https://bvecontentservice.gitee.io/zh/" target="_blank">点击进入BVE内容服务系统下载区</a><br>
+<a href="https://bvecontentservice.github.io/zh/" target="_blank">备用网站</a>（此内容能让您更简单的安装线路）（来自Nemo Zhang (zbx1425)）</p>
+<p>线路开发者？： <a href="https://www.zbx1425.cn/nautilus/index.html" target="_blank">前往这里</a>（来自Nemo Zhang (zbx1425)）</p>
+<p>hmmsim中列车更换方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim中列车更换方法.ppt" download="hmmsim中列车更换方法.ppt">点击下载</a></p>
+<p>hmmsim ios线路安装方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim ios线路安装方法.ppt" download="hmmsim ios线路安装方法.ppt">点击下载</a></p>
+<p>hmmsim 安卓线路安装方法v1.1.0：<a href="https://jonathanqwq.github.io/download/hmmsim安卓线路添加方法.ppt" download="hmmsim安卓线路添加方法.ppt">点击下载</a></p>
+<p>openBVE新手入门+温馨提示的ppt v1.1.0：<a href="https://jonathanqwq.github.io/download/openBVE新手入门.ppt" download="openBVE新手入门+温馨提示的ppt v1.0.0">点击下载（若出现问题，请点击“在新标签页打开”)</a></p>
+<p>openbve线路添加方法v1.1.0：<a href="https://jonathanqwq.github.io/download/openbve线路添加方法.ppt" download="openbve线路添加方法.ppt">点击下载</a></p>
+<p>如需转载，请查看<a href="https://jonathanqwq.github.io/license" target="_blank">转载协议</a></p>
+]]></content>
+    </entry>
+</feed>
